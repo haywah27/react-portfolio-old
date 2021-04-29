@@ -3,10 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Jura&family=Quicksand:wght@300&family=Raleway:wght@300&display=swap');
 
 
-html {
-  height: 100%;
-}
-body { 
+body {
   background-image: url("./assets/background.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;

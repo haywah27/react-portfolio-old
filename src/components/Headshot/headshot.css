@@ -1,0 +1,11 @@
+.head {
+  width: 300px;
+  margin: 30px;
+}
+
+@media (max-width: 576px) {
+  .head {
+    width: 175px;
+    margin: 10px;
+  }
+}

@@ -1,20 +1,48 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Raleway:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Raleway:wght@300&display=swap");
 
-.nameBorder {
-    width: 300px;
+.dimension {
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  justify-content: center;
+  background-color: transparent;
+  padding-top: 0;
+}
+
+.alignGreeting {
+  display: inline-block !important;
+}
+
+.titleMessage {
+  font-size: 50px;
+  margin: 20px;
+  color: white;
+}
+
+.cardCss {
+  border: 15px solid white;
+  padding: 1rem;
+  font-size: 2em;
+  color: white;
+  font-family: "Quicksand", sans-serif;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+
+@media (max-width: 576px) {
+  .titleMessage {
+    font-size: 40px;
+    margin: 20px;
+  }
+
+  .cardCss {
     border: 15px solid white;
-    padding: 1rem;
-    font-size: 3em;
+    padding: .25rem;
+    font-size: 1.75em;
     color: white;
-    font-family: 'Quicksand', sans-serif;
+    font-family: "Quicksand", sans-serif;
     border-radius: 4px;
+    background-color: transparent;
   }
-
-  .dimension {
-    display: flex;
-    align-items: center;
-    border-radius: 4px;
-    justify-content: center;
-    max-width: 300px;
-    margin-bottom: 3rem;
-  }
+}

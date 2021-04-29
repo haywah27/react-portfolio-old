@@ -38,5 +38,14 @@
   color: #d9d4d0 !important;
 }
 
-/* nice blue color */
-/* color: #468499 !important; */
+@media (max-width: 576px) {
+  .navbar-header {
+    color: #F3BB9A !important;
+    margin: 10px;
+    padding-right: 0.5em;
+    padding-left: 0.3em;
+    font-size: 1.5em;
+    font-weight: 500 !important;
+    letter-spacing: 0.1em;
+  }
+}
