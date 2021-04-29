@@ -1,29 +1,30 @@
+
+
 .nav {
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 4px;
-    background-color:  #133337;
+    background-color:  #F27D72;
     
   }
   .navbar-header {
-    color: #eceff1!important;
+    color: #091B40!important;
     margin: 0.1em;
     padding-right: .5em;
     padding-left: .3em;
-    font-size: 2em;
-    font-weight: 400!important;
+    font-size: 2.5em;
+    font-weight: 500!important;
     letter-spacing: 0.1em;
-    font-family: "Courier New";
   }
   
   .navbar-link {
     margin: 0.1em;
-    font-size: 1.4em;
-    font-family: "Courier New";
+    font-size: 1.75em;
     letter-spacing: 0.1em;
     text-indent: 0.3em;
-    color: #eceff1!important;
+    color: #091B40!important;
+    font-weight: 500!important;
     padding: .5em;
   }
   
