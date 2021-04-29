@@ -1,0 +1,17 @@
+.nameBorder {
+    width: 300px;
+    border: 15px solid white;
+    padding: 1rem;
+    font-size: 3em;
+    color: white;
+  }
+
+  .dimension {
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    font-family: "Courier New";
+    justify-content: center;
+    margin-top: 3rem;
+    max-width: 300px;
+  }

@@ -15,9 +15,6 @@ function Navigation() {
             <Nav className="mr-auto"></Nav>
             <Nav>
               <Nav.Link className="navbar-link" href="/">
-                Home
-              </Nav.Link>
-              <Nav.Link className="navbar-link" href="/about">
                 About
               </Nav.Link>
               <Nav.Link className="navbar-link" href="/work">
