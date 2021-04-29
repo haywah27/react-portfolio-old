@@ -1,0 +1,40 @@
+.formCss {
+    align-items: center;
+    border-radius: 4px;
+    justify-content: center;
+    margin-bottom: 3rem;
+    max-width: 500px;
+}
+
+input:focus, textarea:focus { 
+    outline: none !important;
+    border-color: #505E98!important;
+    box-shadow: 0 0 10px #505E98!important;;
+}
+
+.submitBtn{
+    margin-right: 10px;
+    background-color: #80BD9E;
+    border-color: #80BD9E;
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+}
+
+.cancelBtn{
+    background-color: #C95555;
+    border-color: #C95555;
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+}
+
+.submitBtn:hover{
+    background-color: #6198C3;
+    border-color: #6198C3;
+
+}
+
+.cancelBtn:hover{
+    background-color: #F2996A;
+    border-color: #F2996A;
+ 
+}

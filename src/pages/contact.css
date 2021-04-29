@@ -1,0 +1,7 @@
+.formContainer {
+    align-items: center;
+    border-radius: 4px;
+    justify-content: center;
+    margin-bottom: 3rem;
+    max-width: 500px;
+}
