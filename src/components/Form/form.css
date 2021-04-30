@@ -1,10 +1,14 @@
-.formCss {
+.formContainer {
     align-items: center;
     border-radius: 4px;
     justify-content: center;
     margin-bottom: 3rem;
     max-width: 500px;
+    min-width: 200px;
+    margin-right: auto;
+    margin-left: auto;
 }
+
 
 input:focus, textarea:focus { 
     outline: none !important;

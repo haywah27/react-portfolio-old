@@ -9,8 +9,8 @@ function ContactForm() {
 
   return (
     <>
-      <Jumbotron>
-        <h2>Contact Form</h2>
+      <Jumbotron className="formContainer">
+        <h2>Direct Message</h2>
         <hr />
         <Form>
           <Form.Group controlId="formSubject">

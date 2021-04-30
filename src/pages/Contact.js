@@ -5,13 +5,19 @@ import "./contact.css";
 import { Jumbotron, Container, Button, Form } from "react-bootstrap";
 import Navigation from "../components/Nav/Nav";
 import ContactForm from "../components/Form/Form";
+import MediaCard from "../components/MediaCard/MediaCard";
 
 function Contact() {
   return (
     <div>
       <Navigation />
-      <Container className="formContainer">
-        <ContactForm />
+      <Container>
+        <Jumbotron className="jumbo ">
+          <Container>
+            <MediaCard />
+            <ContactForm />
+          </Container>
+        </Jumbotron>
       </Container>
     </div>
   );

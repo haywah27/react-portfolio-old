@@ -1,0 +1,15 @@
+.mediaCard {
+  align-items: center;
+  border-radius: 4px;
+  justify-content: center;
+  margin-bottom: 3rem;
+  max-width: 500px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+
